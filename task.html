@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics of Web Development</title>
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f9f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            width: 200px;
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2e8b57;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #256f48;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Basics of Web Development</h1>
+        <p>Learn HTML, CSS and JavaScript</p>
+    </header>
+
+    <section>
+        <h2>About This Page</h2>
+        <p>
+            This is a simple webpage created using HTML.
+            It is styled using CSS and includes basic JavaScript interaction.
+        </p>
+
+        <!-- Image -->
+        
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+     alt="Web Development"
+     width="400">
+        <br>
+
+        <!-- Link -->
+        <p>
+            Visit 
+            <a href="https://developer.mozilla.org/" target="_blank">
+                MDN Web Docs
+            </a> 
+            to learn more.
+        </p>
+
+        <!-- Button -->
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            alert("Welcome to Web Development!");
+        }
+    </script>
+
+</body>
+</html>
